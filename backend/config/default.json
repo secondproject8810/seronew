@@ -1,0 +1,20 @@
+{
+    "jwtSecret": "your-secret-key",
+    "mongoURI": "mongodb://localhost:27017/sero",
+    "port": 5000,
+    "clientUrl": "http://localhost:3000",
+    "uploadPath": {
+        "profile": "uploads/profile",
+        "posts": "uploads/posts",
+        "events": "uploads/events"
+    },
+    "allowedFileTypes": {
+        "image": ["image/jpeg", "image/png", "image/gif"],
+        "document": ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
+    },
+    "maxFileSize": 5242880,
+    "pagination": {
+        "defaultLimit": 10,
+        "maxLimit": 50
+    }
+} 
